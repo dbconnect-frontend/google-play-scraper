@@ -1,3 +1,8 @@
+# Forked Google-Play-Scraper
+Da das Ursprungsprojekt einen ECONNREFUSED Fehler beim scrapen des Google-Play-Stores wirft (wenn der Service sich im Swarm befindet), wurde das Projekt in der Version 0.8.10 geforked.
+Basierend auf diesem Kommentar: https://github.com/facundoolano/google-play-scraper/issues/513#issuecomment-1017253476
+Anschließend waren Fixes der Mappings notwendig, die aus diesem PR kommen: https://github.com/facundoolano/google-play-scraper/pull/583
+
 # google-play-scraper [![Build Status](https://secure.travis-ci.org/facundoolano/google-play-scraper.png)](http://travis-ci.org/facundoolano/google-play-scraper)
 Node.js module to scrape application data from the Google Play store.
 
